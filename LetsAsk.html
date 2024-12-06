@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask your Query</title>
+    <link href="{{ url_for('static', filename='Styles/style.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Ask your Query</h1>
+    <form action="/LetsAsk">
+        <h3>
+            <input type="text" name="query" id="query" placeholder="Enter a query" />
+            <button type="submit">Submit</button>
+        </h3>
+    </form>
+    <p>{{result}}</p>
+</body>
+
+</html>
