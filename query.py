@@ -12,6 +12,5 @@ def askQuery(query):
     return response.text
 
 
-if __name__ == "__main__":
-    print("**** Please enter your query ****")
-    print(f"****Please find your result *****\n{askQuery(input("Enter your query\n"))}")
+# if __name__ == "__main__":
+#     askQuery(input("Enter your query\n"))
